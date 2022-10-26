@@ -1,0 +1,35 @@
+.encabezado {
+    align-items: center;
+    background-color: var(--gris);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.encabezado__titulo {
+    align-items: center;
+    display: flex;
+}
+
+.encabezado__imagen {
+    display: flex;
+}
+
+.encabezado__estrellitas {
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado__nombre {
+    color: var(--negro);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: .5rem;
+}
+
+.encabezado__contacto {
+    color: var(--negro);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+}
