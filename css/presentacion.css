@@ -1,0 +1,48 @@
+.presentacion {
+    background-color: var(--gris);
+    padding: 1rem;
+}
+
+.presentacion__avatar {
+    border-radius: 100%;
+    height: 98px;
+    width: 98px;
+    margin-bottom: 1rem;
+}
+
+.presentacion__titulo {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.614rem;
+    margin-bottom: 1rem;
+}
+
+.presentacion__descripcion {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.028rem;
+    margin-bottom: 1rem;
+}
+
+.presentacion__enlaces {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentacion__enlace {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.presentacion__texto {
+    margin-right: 0.2rem;
+}
+
+.presentacion__flecha {
+    height: 9px;
+    width: 9px;
+}

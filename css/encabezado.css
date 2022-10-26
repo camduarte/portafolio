@@ -3,6 +3,7 @@
     background-color: var(--gris);
     display: flex;
     justify-content: space-around;
+    line-height: 1.188rem;
     padding: 1rem;
 }
 
@@ -15,9 +16,19 @@
     display: flex;
 }
 
+.encabezado__estrella {
+    height: 16px;
+    width: 16px;
+}
+
 .encabezado__estrellitas {
     display: flex;
     flex-direction: column;
+}
+
+.encabezado__estrellita {
+    height: 8px;
+    width: 8px;
 }
 
 .encabezado__nombre {
@@ -28,8 +39,6 @@
 }
 
 .encabezado__contacto {
-    color: var(--negro);
     font-size: 0.875rem;
     font-weight: 400;
-    text-decoration: none;
 }

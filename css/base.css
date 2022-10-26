@@ -7,3 +7,8 @@
 body {
     font-family: var(--raleway);
 }
+
+.enlace {
+    color: var(--negro);
+    text-decoration: none;
+}
