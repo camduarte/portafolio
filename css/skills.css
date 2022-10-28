@@ -1,5 +1,11 @@
 .skills {
-    display: grid;
-    grid-template-areas: skills;
-    grid-template-columns: 40% 40%;
+    background-color: var(--gris);
+    height: 100%;
+}
+
+.skills__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.614rem;
 }
