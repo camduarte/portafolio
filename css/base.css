@@ -10,6 +10,15 @@ body {
     font-family: var(--raleway);
 }
 
+.hoja {
+    height: 100vh;
+    width: 100%;
+}
+
+.contenedor-principal {
+    height: 92%;
+}
+
 .enlace {
     color: var(--negro);
     text-decoration: none;

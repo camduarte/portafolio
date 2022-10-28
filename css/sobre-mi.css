@@ -1,5 +1,6 @@
 .sobreMi {
     background-color: var(--purpura);
+    height: calc(50% - 2rem);
     padding: 1rem;
 }
 
