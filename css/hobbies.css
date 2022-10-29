@@ -1,0 +1,115 @@
+.hobbies {
+    background-color: var(--gris);
+    padding: 1rem;
+}
+
+.hobbies__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.614rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hobbies__actividades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 1rem;
+    grid-template-rows: repeat(3, 7.375rem);
+}
+
+.hobbies__actividad {
+    background-color: var(--blanco);
+}
+
+.hobbies__actividad--patinaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.hobbies__actividad--bajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.hobbies__actividad--musica {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.hobbies__actividad--series {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.hobbies__actividad--cocinar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.hobbies__actividad--fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+.hobbies__actividad--titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.188rem;
+}
+
+.espaciado {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-patinaje {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-bajo {
+    width: 36px;
+    height: 36px;
+}
+
+.logo-musica {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-series {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-cocinar {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-fotos {
+    width: 32px;
+    height: 32px;
+}
