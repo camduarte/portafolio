@@ -1,11 +1,117 @@
 .skills {
     background-color: var(--gris);
-    height: 100%;
+    height: calc(100% - 2rem);
+    padding: 1rem;
 }
 
 .skills__titulo {
-    text-align: center;
-    font-weight: 700;
     font-size: 1.375rem;
+    font-weight: 700;
     line-height: 1.614rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.skills__tecnologias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 1rem;
+    /* grid-template-rows: repeat(3, 7.375rem); */
+    grid-template-rows: repeat(3, 10.5rem);    
+}
+
+.skills__tecnologia {
+    background-color: var(--blanco);
+}
+
+.skills__tecnologia--html5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+
+.skills__tecnologia--javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+.skills__tecnologia--php {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+
+.skills__tecnologia--nodejs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+.skills__tecnologia--react {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 1 / 2;
+    grid-row: 3;
+}
+
+.skills__tecnologia--css {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+.skills__tecnologia--titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.188rem;
+}
+
+.espaciado {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo-html5 {
+    width: 24px;
+    height: 28px;
+}
+
+.logo-javascript {
+    width: 28px;
+    height: 28px;
+}
+
+.logo-php {
+    width: 40px;
+    height: 22px;
+}
+
+.logo-nodejs {
+    width: 40px;
+    height: 26px;
+}
+
+.logo-react {
+    width: 32px;
+    height: 30px;
+}
+
+.logo-css {
+    width: 22px;
+    height: 36px;
 }
