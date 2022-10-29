@@ -19,91 +19,87 @@
         <link rel="stylesheet" href="./css/sobre-mi.css">
         <link rel="stylesheet" href="./css/skills.css">
     </head>
-    <body>
-        <div class="hoja">
-            <header class="encabezado">
-                <div class="encabezado__titulo">
-                    <div class="encabezado__imagen">
-                        <img class="encabezado__estrella" src="./img/estrella.png" alt="ícono del nombre.">
-                        <div class="encabezado__estrellitas">
-                            <img class="encabezado__estrellita" src="./img/estrellita.png" alt="ícono del nombre.">
-                            <img class="encabezado__estrellita" src="./img/estrellita.png" alt="ícono del nombre.">
-                        </div>
-                    </div>
-                    <h2 class="encabezado__nombre">Christian Duarte</h2>
-                </div>
-                <a class="encabezado__contacto enlace" href="mailto:duarte.camd@gmail.com">duarte.camd@gmail.com</a>
-            </header>
-            <main class="contenedor-principal">
-                <section class="presentacion">
-                    <img class="presentacion__avatar" src="./img/avatar.png" alt="Foto de Christian Duarte.">
-                    <h1 class="presentacion__titulo">Hola, mi nombre es Christian Duarte y construyo sitios web</h1>
-                    <p class="presentacion__descripcion">Estoy formado en los lenguajes Java, javascript, HTML5 y CSS3. Actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
-                    <ul class="presentacion__enlaces">
-                        <li>
-                            <a class="presentacion__enlace enlace" href="https://github.com/camduarte" target="_blank">
-                                <span class="presentacion__texto">Github</span>
-                                <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Github.">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="presentacion__enlace enlace" href="https://www.linkedin.com/in/christian-duarte-602683252" target="_blank">
-                                <span class="presentacion__texto">Linkedin</span>
-                                <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Linkedin.">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="presentacion__enlace enlace" href="https://twitter.com/cduarte70" target="_blank">
-                                <span class="presentacion__texto">Twitter</span>
-                                <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Twitter.">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="presentacion__enlace enlace" href="#">
-                                <span class="presentacion__texto">Currículum</span>
-                                <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace al currículum.">
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="sobreMi">
-                    <h2 class="sobreMi__titulo">Sobre mi</h2>
-                    <p class="sobreMi__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
-                    <p class="sobreMi__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-                    <p class="sobreMi__firma">Christian Ariel Modesto Duarte</p>
-                </section>
-            </main>
-        </div>
-        <div class="hoja">
-            <section class="skills">
-                <h2 class="skills__titulo">Skills</h2>
-                <div class="skills__tecnologias">
-                    <div class="skills__tecnologia skills__tecnologia--html5">
-                        <img class="logo-html5 espaciado" src="./img/html5.png" alt="Logo HTML5">
-                        <h3 class="skills__tecnologia--titulo espaciado">HTML5</h3>
-                    </div>
-                    <div class="skills__tecnologia skills__tecnologia--javascript">
-                        <img class="logo-javascript espaciado" src="./img/js.png" alt="Logo JavaScript">
-                        <h3 class="skills__tecnologia--titulo espaciado">JavaScript</h3>
-                    </div>
-                    <div class="skills__tecnologia skills__tecnologia--php">
-                        <img class="logo-php espaciado" src="./img/php.png" alt="Logo php">
-                        <h3 class="skills__tecnologia--titulo espaciado">php</h3>
-                    </div>
-                    <div class="skills__tecnologia skills__tecnologia--nodejs">
-                        <img class="logo-nodejs espaciado" src="./img/nodejs.png" alt="Logo Node JS">
-                        <h3 class="skills__tecnologia--titulo espaciado">Node JS</h3>
-                    </div>
-                    <div class="skills__tecnologia skills__tecnologia--react">
-                        <img class="logo-react espaciado" src="./img/react.png" alt="Logo React">
-                        <h3 class="skills__tecnologia--titulo espaciado">React</h3>
-                    </div>
-                    <div class="skills__tecnologia skills__tecnologia--css">
-                        <img class="logo-css espaciado" src="./img/css.png" alt="Logo CSS">
-                        <h3 class="skills__tecnologia--titulo espaciado">CSS</h3>
+    <body class="contenedor">
+        <header class="encabezado">
+            <div class="encabezado__titulo">
+                <div class="encabezado__imagen">
+                    <img class="encabezado__estrella" src="./img/estrella.png" alt="ícono del nombre.">
+                    <div class="encabezado__estrellitas">
+                        <img class="encabezado__estrellita" src="./img/estrellita.png" alt="ícono del nombre.">
+                        <img class="encabezado__estrellita" src="./img/estrellita.png" alt="ícono del nombre.">
                     </div>
                 </div>
+                <h2 class="encabezado__nombre">Christian Duarte</h2>
+            </div>
+            <a class="encabezado__contacto enlace" href="mailto:duarte.camd@gmail.com">duarte.camd@gmail.com</a>
+        </header>
+        <main>
+            <section class="presentacion">
+                <img class="presentacion__avatar" src="./img/avatar.png" alt="Foto de Christian Duarte.">
+                <h1 class="presentacion__titulo">Hola, mi nombre es Christian Duarte y construyo sitios web</h1>
+                <p class="presentacion__descripcion">Estoy formado en los lenguajes Java, javascript, HTML5 y CSS3. Actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</p>
+                <ul class="presentacion__enlaces">
+                    <li>
+                        <a class="presentacion__enlace enlace" href="https://github.com/camduarte" target="_blank">
+                            <span class="presentacion__texto">Github</span>
+                            <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Github.">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="presentacion__enlace enlace" href="https://www.linkedin.com/in/christian-duarte-602683252" target="_blank">
+                            <span class="presentacion__texto">Linkedin</span>
+                            <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Linkedin.">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="presentacion__enlace enlace" href="https://twitter.com/cduarte70" target="_blank">
+                            <span class="presentacion__texto">Twitter</span>
+                            <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace a perfil de Twitter.">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="presentacion__enlace enlace" href="#">
+                            <span class="presentacion__texto">Currículum</span>
+                            <img class="presentacion__flecha" src="./img/flecha.png" alt="Enlace al currículum.">
+                        </a>
+                    </li>
+                </ul>
             </section>
-        </div>
+            <section class="sobreMi">
+                <h2 class="sobreMi__titulo">Sobre mi</h2>
+                <p class="sobreMi__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
+                <p class="sobreMi__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                <p class="sobreMi__firma">Christian Ariel Modesto Duarte</p>
+            </section>
+        </main>
+        <section class="skills">
+            <h2 class="skills__titulo">Skills</h2>
+            <div class="skills__tecnologias">
+                <div class="skills__tecnologia skills__tecnologia--html5">
+                    <img class="logo-html5 espaciado" src="./img/html5.png" alt="Logo HTML5">
+                    <h3 class="skills__tecnologia--titulo espaciado">HTML5</h3>
+                </div>
+                <div class="skills__tecnologia skills__tecnologia--javascript">
+                    <img class="logo-javascript espaciado" src="./img/js.png" alt="Logo JavaScript">
+                    <h3 class="skills__tecnologia--titulo espaciado">JavaScript</h3>
+                </div>
+                <div class="skills__tecnologia skills__tecnologia--php">
+                    <img class="logo-php espaciado" src="./img/php.png" alt="Logo php">
+                    <h3 class="skills__tecnologia--titulo espaciado">php</h3>
+                </div>
+                <div class="skills__tecnologia skills__tecnologia--nodejs">
+                    <img class="logo-nodejs espaciado" src="./img/nodejs.png" alt="Logo Node JS">
+                    <h3 class="skills__tecnologia--titulo espaciado">Node JS</h3>
+                </div>
+                <div class="skills__tecnologia skills__tecnologia--react">
+                    <img class="logo-react espaciado" src="./img/react.png" alt="Logo React">
+                    <h3 class="skills__tecnologia--titulo espaciado">React</h3>
+                </div>
+                <div class="skills__tecnologia skills__tecnologia--css">
+                    <img class="logo-css espaciado" src="./img/css.png" alt="Logo CSS">
+                    <h3 class="skills__tecnologia--titulo espaciado">CSS</h3>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

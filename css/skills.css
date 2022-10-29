@@ -1,6 +1,5 @@
 .skills {
     background-color: var(--gris);
-    height: calc(100% - 2rem);
     padding: 1rem;
 }
 
@@ -16,8 +15,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem 1rem;
-    /* grid-template-rows: repeat(3, 7.375rem); */
-    grid-template-rows: repeat(3, 10.5rem);    
+    grid-template-rows: repeat(3, 7.375rem);
 }
 
 .skills__tecnologia {
