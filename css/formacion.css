@@ -1,0 +1,60 @@
+.formacion {
+    background-color: var(--purpura);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    grid-row-gap: 1rem;
+    justify-items: center;
+    padding: 1rem;
+}
+
+.formacion__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.614rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.formacion__curso {
+    width: calc(100% - 2rem);
+}
+
+.caja-imagen {
+    align-items: center;
+    background-color: var(--blanco);
+    display: flex;
+    height: 7.375rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.formacion__curso--alura {
+    width: 70px;
+    height: 48px;
+}
+
+.formacion__curso--utn {
+    width: 200px;
+    height: 75px;
+}
+
+.formacion__curso--proyectoProgramar {
+    width: 200px;
+    height: 60px;
+}
+
+.formacion__curso--titulo {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.188rem;  
+    margin-bottom: .5rem;
+}
+
+.formacion__curso--fecha {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+}
