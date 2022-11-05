@@ -166,31 +166,31 @@
                     <img src="./img/encriptador-de-texto.png" alt="Proyecto Encriptador de texto" class="experiencia__proyecto--imagen">
                     <h3 class="experiencia__proyecto--titulo">Encriptador de texto</h3>
                     <p class="experiencia__proyecto--descripcion">Challenge Oracle</p>
-                    <div class="botonera"><a href="https://github.com/camduarte/encriptador-de-texto" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositório</span></a><a href="https://camduarte.github.io/encriptador-de-texto/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
+                    <div class="botonera"><a href="https://github.com/camduarte/encriptador-de-texto" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositorio</span></a><a href="https://camduarte.github.io/encriptador-de-texto/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
                 </div>
                 <div class="experiencia__proyecto">
                     <img src="./img/juego-del-ahorcado.png" alt="Proyecto Juego del ahorcado" class="experiencia__proyecto--imagen">
                     <h3 class="experiencia__proyecto--titulo">Juego del ahorcado</h3>
                     <p class="experiencia__proyecto--descripcion">Challenge Oracle</p>
-                    <div class="botonera"><a href="https://github.com/camduarte/juego-del-ahorcado" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositório</span></a><a href="https://camduarte.github.io/juego-del-ahorcado/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
+                    <div class="botonera"><a href="https://github.com/camduarte/juego-del-ahorcado" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositorio</span></a><a href="https://camduarte.github.io/juego-del-ahorcado/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
                 </div>
                 <div class="experiencia__proyecto">
                     <img src="./img/tateti.png" alt="Proyecto tatetí" class="experiencia__proyecto--imagen">
                     <h3 class="experiencia__proyecto--titulo">tatetí</h3>
                     <p class="experiencia__proyecto--descripcion">JavaScript canvas</p>
-                    <div class="botonera"><a href="https://github.com/camduarte/tateti" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositório</span></a><a href="https://camduarte.github.io/tateti/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
+                    <div class="botonera"><a href="https://github.com/camduarte/tateti" class="experiencia__proyecto--repositorio enlace" target="_blank"><span class="texto-boton texto-azul">Repositorio</span></a><a href="https://camduarte.github.io/tateti/" class="boton-azul enlace" target="_blank"><span class="texto-boton texto-gris">Ver demo</span></a></div>
                 </div>
             </div>
         </section>
         <section class="contacto">
             <h2 class="contacto__titulo">Contacto</h2>
             <p class="contacto__descripcion">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-            <form action="" class="contacto__formulario">
-                <input type="text" name="nombre">
-                <input type="text" name="email">
-                <input type="text" name="asunto">
-                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-                <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit">Enviar mensaje</button>
+            <form id="contacto" action="#" method="post" enctype="text/plain" target="_self" class="contacto__formulario">
+                <input class="contacto__dato" type="text" name="nombre" form="contacto" placeholder="Nombre" required>
+                <input class="contacto__dato" type="email" name="email" form="contacto" placeholder="E-mail" required>
+                <input class="contacto__dato" type="text" name="asunto" form="contacto" placeholder="Asunto" required>
+                <textarea class="contacto__dato contacto__mensaje" name="mensaje" id="" cols="30" rows="10" form="contacto" placeholder="Mensaje" required></textarea>
+                <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit" form="contacto">Enviar mensaje</button>
             </form>
         </section>
         <footer class="footer">

@@ -8,7 +8,7 @@
     font-weight: 700;
     line-height: 1.614rem;
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: start;
 }
 
 .contacto__descripcion {
@@ -16,8 +16,35 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.188rem;
+    margin-bottom: 1rem;
 }
 
 .contacto__boton {
     border: none;
+}
+
+.contacto__formulario {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 3fr 1fr;
+    grid-row-gap: 2rem;
+}
+
+.contacto__dato {
+    border: none;
+    border-radius: 4px;
+    padding: .5rem;
+}
+
+.contacto__dato:focus {
+    outline: none;
+    border-bottom: 2px solid var(--azul);
+}
+
+.contacto__mensaje {
+    resize: none;
+}
+
+.contacto__boton {
+    justify-self: start;
 }
