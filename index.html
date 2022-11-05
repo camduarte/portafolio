@@ -186,12 +186,16 @@
         <section class="contacto">
             <h2 class="contacto__titulo">Contacto</h2>
             <p class="contacto__descripcion">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-            <form id="contacto" action="#" method="post" enctype="text/plain" target="_self" class="contacto__formulario">
+            <form id="contacto" action="https://formsubmit.co/duarte.camd@gmail.com" method="post" class="contacto__formulario">
+                <input type="hidden" name="_next" value="http://www.portafolio.ar/index.html">
+                <input type="hidden" name="_subject" value="Contacto desde el portafolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
                 <input class="contacto__dato" type="text" name="nombre" form="contacto" placeholder="Nombre" required>
                 <input class="contacto__dato" type="email" name="email" form="contacto" placeholder="E-mail" required>
                 <input class="contacto__dato" type="text" name="asunto" form="contacto" placeholder="Asunto" required>
                 <textarea class="contacto__dato contacto__mensaje" name="mensaje" id="" cols="30" rows="10" form="contacto" placeholder="Mensaje" required></textarea>
-                <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit" form="contacto">Enviar mensaje</button>
+                <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit">Enviar mensaje</button>
             </form>
         </section>
         <footer class="footer">
