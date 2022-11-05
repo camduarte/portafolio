@@ -31,6 +31,10 @@
     width: 8px;
 }
 
+.little-star {
+    font-size: .5rem;
+}
+
 .encabezado__nombre {
     color: var(--negro);
     font-size: 1rem;
