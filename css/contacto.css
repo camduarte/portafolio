@@ -1,0 +1,23 @@
+.contacto {
+    background-color: var(--purpura);
+    padding: 2rem;
+}
+
+.contacto__titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 1.614rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contacto__descripcion {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.188rem;
+}
+
+.contacto__boton {
+    border: none;
+}
