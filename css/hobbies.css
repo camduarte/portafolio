@@ -20,22 +20,23 @@
 
 .hobbies__actividad {
     background-color: var(--blanco);
+    padding: 0 0 1rem 1rem;
 }
 
-.hobbies__actividad--patinaje {
+.hobbies__actividad--cubo {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     grid-column: 1 / 2;
-    grid-row: 1;
+    grid-row: 1 / 2;
 }
 
-.hobbies__actividad--bajo {
+.hobbies__actividad--guitarra {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     grid-column: 2 / 3;
-    grid-row: 1;
+    grid-row: 1 / 2;
 }
 
 .hobbies__actividad--musica {
@@ -54,7 +55,7 @@
     grid-row: 2;
 }
 
-.hobbies__actividad--cocinar {
+.hobbies__actividad--juego {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -71,27 +72,24 @@
 }
 
 .hobbies__actividad--titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.188rem;
+    margin-top: .5rem;
 }
 
-.logo-patinaje {
+.logo-cubo {
     width: 32px;
     height: 32px;
 }
 
-.logo-bajo {
+.logo-guitarra {
     width: 36px;
     height: 36px;
 }
 
 .logo-musica {
     width: 32px;
-    height: 32px;
 }
 
 .logo-series {
@@ -99,7 +97,7 @@
     height: 32px;
 }
 
-.logo-cocinar {
+.logo-juego {
     width: 32px;
     height: 32px;
 }
