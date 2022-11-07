@@ -5,10 +5,12 @@
     --negro: #464646;
     --gris: #f0eff8;
     --purpura: #e2e0f2;
+    --purpura-oscuro: rgb(125, 33, 129);
     --raleway: 'Raleway', sans-serif;
 }
 
 .contenedor {
+    color: var(--negro);
     width: 100vw;
     font-family: var(--raleway);
 }
