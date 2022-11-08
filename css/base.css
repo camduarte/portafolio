@@ -5,6 +5,7 @@
     --negro: #464646;
     --gris: #f0eff8;
     --purpura: #e2e0f2;
+    --purpura-intermedio: #8e22bb;
     --purpura-oscuro: rgb(125, 33, 129);
     --raleway: 'Raleway', sans-serif;
 }
@@ -28,7 +29,7 @@
 } 
 
 .boton-azul {
-    background-color: var(--azul);
+    background-color: var(--purpura-oscuro);
     padding: 0.75rem 1rem;
 }
 
@@ -37,5 +38,5 @@
 }
 
 .texto-azul {
-    color: var(--azul);
+    color: var(--purpura-oscuro);
 }
