@@ -186,18 +186,22 @@
             </div>
         </section>
         <section class="contacto">
-            <h2 class="contacto__titulo">Contacto</h2>
-            <p class="contacto__descripcion">¿Quieres contactarme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-            <form id="contacto" action="https://formsubmit.co/e46152ab7f1847f785aa4dbad76dc9d2" method="post" class="contacto__formulario">
-                <input type="hidden" name="_next" value="https://camduarte.github.io/portafolio/">
-                <input type="hidden" name="_subject" value="Contacto desde el portafolio">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="table">
-                <input class="contacto__dato" type="text" name="nombre" form="contacto" placeholder="Nombre" required>
-                <input class="contacto__dato" type="email" name="email" form="contacto" placeholder="E-mail" required>
-                <input class="contacto__dato" type="text" name="asunto" form="contacto" placeholder="Asunto" required>
-                <textarea class="contacto__dato contacto__mensaje" name="mensaje" id="" cols="30" rows="10" form="contacto" placeholder="Mensaje" required></textarea>
-                <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit">Enviar mensaje</button>
+            <form id="contacto" action="https://formsubmit.co/e46152ab7f1847f785aa4dbad76dc9d2" method="post">
+                <fieldset class="contacto__campos" form="contacto">
+                    <legend>
+                        <h2 class="contacto__titulo">Contacto</h2>
+                        <p class="contacto__descripcion">¿Querés contactarme?<br>Completa el siguiente formulario y me pondré en contacto lo antes posible.</p>
+                    </legend>
+                    <input type="hidden" name="_next" value="https://camduarte.github.io/portafolio/">
+                    <input type="hidden" name="_subject" value="Contacto desde el portafolio">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input class="contacto__dato" type="text" name="nombre" form="contacto" placeholder="Nombre" required>
+                    <input class="contacto__dato" type="email" name="email" form="contacto" placeholder="E-mail" required>
+                    <input class="contacto__dato" type="text" name="asunto" form="contacto" placeholder="Asunto" required>
+                    <textarea class="contacto__dato contacto__mensaje" name="mensaje" id="" cols="30" rows="10" minlength="12" maxlength="140" form="contacto" placeholder="Mensaje" required></textarea>
+                    <button class="contacto__boton boton-azul texto-boton texto-gris" type="submit">Enviar mensaje</button>
+                </fieldset>
             </form>
         </section>
         <footer class="footer">
