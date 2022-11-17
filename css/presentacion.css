@@ -42,7 +42,16 @@
     margin-right: 0.2rem;
 }
 
-.presentacion__flecha {
-    height: 9px;
-    width: 9px;
+/* Responsive para las tabletas */
+@media screen and (max-width: 768px) {
+    .presentacion {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .presentacion__avatar {
+        height: 146px;
+        width: 146px;
+        margin: 0 0 0 1rem;
+    }
 }
