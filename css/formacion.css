@@ -32,19 +32,8 @@
     margin-bottom: 1rem;
 }
 
-.formacion__curso--alura {
-    width: 295px;
-    height: 121px;
-}
-
-.formacion__curso--utn {
-    width: 295px;
-    height: 108px;
-}
-
-.formacion__curso--proyectoProgramar {
-    width: 200px;
-    height: 60px;
+.formacion__curso--img {
+    width: 100%;
 }
 
 .formacion__curso--titulo {
@@ -69,33 +58,18 @@
         grid-template-rows: 1fr;
     }
 
-    .aluraoracle {
+    .formacion__curso-aluraoracle {
         grid-column: 1 / 2;
         grid-row: 1 /2;
     }
 
-    .utn {
+    .formacion__curso-utn {
         grid-column: 2 / 3;
         grid-row: 1 /2;
     }
 
-    .proyecto-programar {
+    .formacion__curso-proyecto-programar {
         grid-column: 3 / 4;
         grid-row: 1 /2;
-    }
-
-    .formacion__curso--alura {
-        width: 100%;
-        /* height: 90.75px; */
-    }
-    
-    .formacion__curso--utn {
-        width: 100%;
-        /* height: calc(108 * 0.75); */
-    }
-    
-    .formacion__curso--proyectoProgramar {
-        width: 100%;
-        /* height: 45px; */
     }
 }

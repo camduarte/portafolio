@@ -56,11 +56,3 @@
     background-color: var(--azul);
     padding: 0.75rem 1rem;
 }
-
-/* Responsive para las tabletas */
-@media screen and (min-width: 576px) {
-    .experiencia__proyecto--imagen {
-        width: calc(295px * 2);
-        height: calc(166px * 2);
-    }
-}
