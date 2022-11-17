@@ -53,3 +53,20 @@
         font-weight: 700;
     }
 }
+
+/* Responsive para desktop */
+@media screen and (min-width: 768px) {
+    .encabezado {
+        padding: 2.156rem 9.5rem;
+    }
+
+    .encabezado__nombre {
+        font-size: 1rem;
+        line-height: 1.188;
+    }
+
+    .encabezado__contacto {
+        font-size: 1rem;
+        line-height: 1.188;
+    }
+}
