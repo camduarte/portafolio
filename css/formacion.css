@@ -1,10 +1,5 @@
 .formacion {
     background-color: var(--purpura);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 3fr;
-    grid-row-gap: 1rem;
-    justify-items: center;
     padding: 1rem;
 }
 
@@ -14,6 +9,14 @@
     line-height: 1.614rem;
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.formacion__cursos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    grid-row-gap: 1rem;
+    justify-items: center;
 }
 
 .formacion__curso {
@@ -57,4 +60,42 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1rem;
+}
+
+/* Responsive para las tabletas */
+@media screen and (min-width: 576px) {
+    .formacion__cursos {
+        grid-template-columns: 3fr;
+        grid-template-rows: 1fr;
+    }
+
+    .aluraoracle {
+        grid-column: 1 / 2;
+        grid-row: 1 /2;
+    }
+
+    .utn {
+        grid-column: 2 / 3;
+        grid-row: 1 /2;
+    }
+
+    .proyecto-programar {
+        grid-column: 3 / 4;
+        grid-row: 1 /2;
+    }
+
+    .formacion__curso--alura {
+        width: calc(295px * 0.75);
+        height: calc(121px * 0.75);
+    }
+    
+    .formacion__curso--utn {
+        width: calc(295px * 0.75);
+        height: calc(108px * 0.75);
+    }
+    
+    .formacion__curso--proyectoProgramar {
+        width: calc(200px * 0.75);
+        height: calc(60px * 0.75);
+    }
 }

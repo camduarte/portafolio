@@ -48,7 +48,7 @@
 }
 
 /* Responsive para las tabletas */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
     .encabezado__contacto {
         font-weight: 700;
     }

@@ -83,38 +83,8 @@
     margin-bottom: 1rem;
 }
 
-.logo-java {
-    width: 24px;
-    height: 28px;
-}
-
-.logo-javascript {
-    width: 28px;
-    height: 28px;
-}
-
-.logo-html {
-    width: 40px;
-    height: 22px;
-}
-
-.logo-sql {
-    width: 40px;
-    height: 26px;
-}
-
-.logo-linux {
-    width: 32px;
-    height: 30px;
-}
-
-.logo-css {
-    width: 22px;
-    height: 36px;
-}
-
 /* Responsive para las tabletas */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
     .skills__tecnologias {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 7.375rem);

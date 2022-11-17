@@ -79,7 +79,7 @@
 }
 
 /* Responsive para las tabletas */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
     .hobbies__actividades {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 7.375rem);
