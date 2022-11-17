@@ -42,31 +42,61 @@
     margin-left: .5rem;
 }
 
+.encabezado__memu {
+    display: none;
+}
+
 .encabezado__contacto {
     font-size: 0.875rem;
     font-weight: 400;
 }
 
 /* Responsive para las tabletas */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 577px) {
     .encabezado__contacto {
         font-weight: 700;
     }
 }
 
 /* Responsive para desktop */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .encabezado {
         padding: 2.156rem 9.5rem;
     }
 
     .encabezado__nombre {
         font-size: 1rem;
-        line-height: 1.188;
+        line-height: 1.188rem;
+    }
+
+    .contenedor__menu-contacto {
+        display: flex;
+    }
+
+    .encabezado__memu {
+        display: inline;
+    }
+
+    .encabezado__lista {
+        display: flex;
+    }
+
+    .encabezado__item {
+        margin-right: 2rem;
+    }
+
+    .encabezado__enlace {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.188rem;
+    }
+
+    .encabezado__enlace:hover {
+        border-bottom: 1px solid var(--negro);
     }
 
     .encabezado__contacto {
         font-size: 1rem;
-        line-height: 1.188;
+        line-height: 1.188rem;
     }
 }
