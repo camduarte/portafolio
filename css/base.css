@@ -1,12 +1,12 @@
 :root {
     --azul: #2A7AE4;
+    --azul-oscuro: #4931AF;
     --blanco: #fdfdfd;
     --cedarville-cursive: 'Cedarville Cursive', cursive;
     --negro: #464646;
     --gris: #f0eff8;
     --purpura: #e2e0f2;
     --purpura-intermedio: #8e22bb;
-    --purpura-oscuro: rgb(125, 33, 129);
     --raleway: 'Raleway', sans-serif;
 }
 
@@ -29,7 +29,7 @@
 } 
 
 .boton-azul {
-    background-color: var(--purpura-oscuro);
+    background-color: var(--azul-oscuro);
     padding: 0.75rem 1rem;
 }
 
@@ -38,5 +38,5 @@
 }
 
 .texto-azul {
-    color: var(--purpura-oscuro);
+    color: var(--azul-oscuro);
 }
