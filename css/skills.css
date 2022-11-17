@@ -121,49 +121,31 @@
     }
 
     .skills__tecnologia--java {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
     
     .skills__tecnologia--javascript {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 2 / 3;
         grid-row: 1 /2;
     }
     
     .skills__tecnologia--html {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
     
     .skills__tecnologia--sql {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
     
     .skills__tecnologia--linux {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
     
     .skills__tecnologia--css {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }

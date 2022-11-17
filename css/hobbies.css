@@ -78,31 +78,40 @@
     margin-top: .5rem;
 }
 
-.logo-cubo {
-    width: 32px;
-    height: 32px;
-}
+/* Responsive para las tabletas */
+@media screen and (max-width: 768px) {
+    .hobbies__actividades {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 7.375rem);
+    }
 
-.logo-guitarra {
-    width: 36px;
-    height: 36px;
-}
-
-.logo-musica {
-    width: 32px;
-}
-
-.logo-series {
-    width: 32px;
-    height: 32px;
-}
-
-.logo-juego {
-    width: 32px;
-    height: 32px;
-}
-
-.logo-fotos {
-    width: 32px;
-    height: 32px;
+    .hobbies__actividad--cubo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .hobbies__actividad--guitarra {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .hobbies__actividad--musica {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .hobbies__actividad--series {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .hobbies__actividad--juego {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    .hobbies__actividad--fotos {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
 }
