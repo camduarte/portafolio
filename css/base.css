@@ -40,3 +40,11 @@
 .texto-azul {
     color: var(--azul-oscuro);
 }
+
+@media screen and (min-width: 769px) {
+    .texto-boton {
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.188rem;
+    } 
+}

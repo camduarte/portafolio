@@ -13,15 +13,13 @@
 
 .experiencia__proyectos {
     display: grid;
-    grid-row-gap: 2rem;
+    grid-row-gap: 4rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
 }
 
-.experiencia__proyecto--imagen {
-    width: 295px;
-    height: 166px;
-    margin-bottom: .5rem;
+.experiencia__proyecto--img {
+    width: 100%;
 }
 
 .experiencia__proyecto--titulo {
@@ -55,4 +53,50 @@
 .experiencia__proyecto--demo {
     background-color: var(--azul);
     padding: 0.75rem 1rem;
+}
+
+/* Responsive para desktop */
+@media screen and (min-width: 769px) {
+    .experiencia {
+        padding: 4rem 9.5rem;
+    }
+
+    .experiencia__titulo {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+
+    .experiencia__proyecto--encriptador {
+        display: flex;
+    }
+    
+    .experiencia__proyecto--ahorcado {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .experiencia__proyecto--tateti {
+        display: flex;
+    }
+
+    .experiencia__proyecto--img {
+        width: 65%;
+    }
+
+    .experiencia__contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 1rem;
+    }
+
+    .experiencia__proyecto--titulo {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+    
+    .experiencia__proyecto--descripcion {
+        font-size: 1rem;
+        line-height: 1.188rem;
+    }
 }
