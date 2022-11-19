@@ -34,6 +34,11 @@
     border: none;
     border-radius: 4px;
     padding: .5rem;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
 
 .contacto__dato:focus {
@@ -47,4 +52,26 @@
 
 .contacto__boton {
     justify-self: start;
+}
+
+/* Responsive para desktop */
+@media screen and (min-width: 769px) {
+    .contacto {
+        padding: 4rem 9.5rem;
+        display: flex;
+    }
+
+    .contacto__titulo {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+
+    .contacto__img {
+        background-image: url("../img/contact.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 45%;
+        margin-right:1rem;
+    }
 }
