@@ -30,6 +30,10 @@
         padding: 4rem 9.5rem;
     }
 
+    .sobremi__contenedor {
+        width: 65%;
+    }
+
     .sobreMi__titulo {
         font-size: 2rem;
         line-height: 2.375rem;
@@ -38,5 +42,9 @@
     .sobreMi__descripcion {
         font-size: 1rem;
         line-height: 1.188rem;
+    }
+
+    .sobreMi__firma {
+        font-size: 1.625rem;
     }
 }
