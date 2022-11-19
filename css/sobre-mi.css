@@ -3,13 +3,6 @@
     padding: 1rem;
 }
 
-.sobreMi__titulo {
-    font-size: 1.375rem;
-    font-weight: 700;
-    line-height: 1.614rem;
-    margin-bottom: 1rem;
-}
-
 .sobreMi__descripcion {
     font-size: 0.875rem;
     font-weight: 400;
@@ -34,11 +27,6 @@
         width: 65%;
     }
 
-    .sobreMi__titulo {
-        font-size: 2rem;
-        line-height: 2.375rem;
-    }
-    
     .sobreMi__descripcion {
         font-size: 1rem;
         line-height: 1.188rem;

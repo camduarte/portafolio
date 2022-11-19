@@ -3,14 +3,6 @@
     padding: 2rem;
 }
 
-.contacto__titulo {
-    font-size: 1.375rem;
-    font-weight: 700;
-    line-height: 1.614rem;
-    margin-bottom: 1rem;
-    text-align: start;
-}
-
 .contacto__descripcion {
     font-size: 1rem;
     font-style: normal;
@@ -59,11 +51,6 @@
     .contacto {
         padding: 4rem 9.5rem;
         display: flex;
-    }
-
-    .contacto__titulo {
-        font-size: 2rem;
-        line-height: 2.375rem;
     }
 
     .contacto__img {

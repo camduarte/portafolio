@@ -3,14 +3,6 @@
     padding: 1rem;
 }
 
-.hobbies__titulo {
-    font-size: 1.375rem;
-    font-weight: 700;
-    line-height: 1.614rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
 .hobbies__actividades {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

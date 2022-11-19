@@ -33,7 +33,7 @@
 }
 
 .formacion__curso--img {
-    width: 100%;
+    width: 65%;
 }
 
 .formacion__curso--titulo {
@@ -87,10 +87,6 @@
 
     .caja-imagen {
         height: 17.875rem;
-    }
-
-    .formacion__curso--img {
-        width: 70%;
     }
 
     .formacion__curso--titulo {

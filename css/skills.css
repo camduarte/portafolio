@@ -3,14 +3,6 @@
     padding: 1rem;
 }
 
-.skills__titulo {
-    font-size: 1.375rem;
-    font-weight: 700;
-    line-height: 1.614rem;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
 .skills__tecnologias {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -125,11 +117,6 @@
 @media screen and (min-width: 769px) {
     .skills {
         padding: 2rem 9.5rem;
-    }
-
-    .skills__titulo {
-        font-size: 2rem;
-        line-height: 2.375rem;
     }
 
     .skills__tecnologias {
