@@ -48,6 +48,10 @@
     margin-bottom: 1rem;
 }
 
+.centrar {
+    text-align: center;
+}
+
 @media screen and (min-width: 769px) {
     .texto-boton {
         font-weight: 400;
@@ -58,9 +62,5 @@
     .seccion__titulo {
         font-size: 2rem;
         line-height: 2.375rem;
-    }
-
-    .centrar {
-        text-align: center;
     }
 }
