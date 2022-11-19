@@ -67,10 +67,7 @@
     }
 
     .contacto__img {
-        background-image: url("../img/contact.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background: var(--purpura) url("../img/contact.jpg") center/cover no-repeat;
         width: 45%;
         margin-right:1rem;
     }
