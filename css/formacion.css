@@ -73,3 +73,33 @@
         grid-row: 1 /2;
     }
 }
+
+/* Responsive para desktop */
+@media screen and (min-width: 769px) {
+    .formacion {
+        padding: 4rem 9.5rem;
+    }
+
+    .formacion__titulo {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+
+    .caja-imagen {
+        height: 17.875rem;
+    }
+
+    .formacion__curso--img {
+        width: 70%;
+    }
+
+    .formacion__curso--titulo {
+        font-size: 1.375rem;
+        line-height: 1.625rem;  
+    }
+    
+    .formacion__curso--fecha {
+        font-size: 1rem;
+        line-height: 1.188rem;
+    }
+}
