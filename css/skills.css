@@ -134,7 +134,7 @@
 
     .skills__tecnologias {
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(1, 7.375rem);
+        grid-template-rows: repeat(1, 10.875rem);
     }
 
     .skills__tecnologia--java {
