@@ -30,6 +30,15 @@
     margin-bottom: .5rem;
 }
 
+.experiencia__item {
+    margin-bottom: 1rem;
+}
+
+.resaltar {
+    font-weight: 600;
+    line-height: 1.188rem;
+}
+
 .botonera {
     display: flex;
     justify-content: flex-start;
