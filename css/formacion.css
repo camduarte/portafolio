@@ -14,7 +14,7 @@
 .formacion__cursos {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-row-gap: 1rem;
     justify-items: center;
 }
@@ -28,13 +28,29 @@
     background-color: var(--blanco);
     display: flex;
     height: 7.375rem;
-    justify-content: center;
+    justify-content: space-evenly;    
     margin-bottom: 1rem;
 }
 
-.formacion__curso--img {
-    width: 65%;
+.formacion__curso--img-arg-utn {
+    width: 50%;
 }
+
+.formacion__curso--img {
+    width: 80%;
+}
+
+.formacion__curso--sceu {
+    width: 100%;
+}
+
+.formacion__curso--utnsceu {
+    display: none;
+}
+
+.formacion__curso--img-alura-one {
+    width: 30%;
+} 
 
 .formacion__curso--titulo {
     font-size: 1rem;
@@ -54,23 +70,51 @@
 /* Responsive para las tabletas */
 @media screen and (min-width: 576px) {
     .formacion__cursos {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
     }
 
-    .formacion__curso-aluraoracle {
+    .formacion__curso-argentina-programa {
         grid-column: 1 / 2;
         grid-row: 1 /2;
     }
 
-    .formacion__curso-utn {
+    .formacion__curso-aluraoracle {
         grid-column: 2 / 3;
         grid-row: 1 /2;
     }
 
-    .formacion__curso-proyecto-programar {
+    .formacion__curso-utn {
         grid-column: 3 / 4;
         grid-row: 1 /2;
+    }
+
+    .formacion__curso-proyecto-programar {
+        grid-column: 4 / 5;
+        grid-row: 1 /2;
+    }
+
+    .caja-imagen {
+        flex-direction: column;
+        height: 9.5rem;
+        justify-content: space-evenly;
+    }
+
+    .formacion__curso--img-arg-utn {
+        width: 100%;
+    }
+
+    .formacion__curso--img-alura-one {
+        width: 50%;
+    }
+
+    .formacion__curso--sceu {
+        display: none;
+    }
+
+    .formacion__curso--utnsceu {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -80,13 +124,13 @@
         padding: 4rem 9.5rem;
     }
 
+    .caja-imagen {
+        height: 17.875rem;
+    }
+
     .formacion__titulo {
         font-size: 2rem;
         line-height: 2.375rem;
-    }
-
-    .caja-imagen {
-        height: 17.875rem;
     }
 
     .formacion__curso--titulo {
